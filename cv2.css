@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(bodybg.jpg);
+    visibility: 0.9;
+    background-size: cover; */
+}
+header{
+    background-image: url(https://res.cloudinary.com/fas3a/image/upload/v1567696126/faspics4_l8yiuk.png);
+    background-size: cover;
+    height: 700px;
+    /* max-width: 100%; */
+    /* opacity: 0.5; */
+}
+
+#headnav{
+    display: flex;
+    list-style-type: none;
+    background-color: rgba(12, 12, 12, 0.651);  
+    position: fixed;
+    width: 100%;
+    top: 0
+
+}
+#headnav li{
+    /* margin: 5px; */
+    padding: 20px 0;
+    /* border: 1px solid red */
+}
+#headnav a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#headnav a:hover{
+    background-color: rgba(247, 107, 107, 0.247); 
+}
+#headnav :active{
+    background-color: rgba(70, 18, 167, 0.247); 
+}
+#summary-div{
+    /* border: 1px solid red; */
+    margin: 150px 100px;
+    position: absolute;
+    color: white;
+    max-width: 600px;
+}
+#greet{
+    /* background-color: red; */
+    color: red;
+    font-size: 30px; 
+    margin: 10px 0
+}
+
+#summary{
+    font-weight: bolder;
+    font-size: 60px
+}
+#side-head{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    right: 150px;
+    bottom: 100px;
+    color: white;
+
+}
+#side-head a{
+    color: rgb(43, 194, 124);
+    text-decoration: none;
+    margin: 10px;
+    border: 3px solid white;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: rgba(82, 62, 62, 0.644);
+
+}
+#scroldwn{
+
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    color:white;
+    text-decoration: none;
+}
+
+/* About me page */
+#aboutme{
+    text-align: center;
+    background-color: rgba(255, 235, 205, 0.336);
+}
+#aboutme-write{
+    max-width: 800px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 80px 0;
+}
+#aboutme-write span{
+    font-size: 40px;
+    color: rgb(63, 63, 70);
+    font-weight: bolder
+
+}
+#aboutme-write p{
+    font-size: 25px;
+    /* font-weight: bold */
+}
+
+/* skills and hobbies */
+#mid-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills{
+    flex: 50%;
+}
+#mid-content li{
+    list-style-type: none;
+    text-align: left;
+    margin: 0 200px;
+    padding: 5px;
+    font-size: 20px;
+}
+#mid-content span{
+    background-color: rgba(128, 128, 128, 0.534);
+    color:white;
+    font-weight: bolder;
+    font-size: 25px;
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#hobbies{
+    flex: 50%;
+}
+hr{
+    width: 30%;
+}
+
+
+/* Work Experiences */
+#experience-container{
+    /* background-color: rgba(82, 82, 243, 0.267); */
+    margin: 35px 50px;
+}
+#experience-title{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px;
+    font-family: "montserrat-bold", sans-serif
+    /* border: 1px solid red; */
+}
+#experience{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    /* background-color: red; */
+    margin: auto
+}
+#job1, #job2{
+    flex: 50%;
+    /* border: 1px solid rgba(9, 20, 9, 0.596); */
+    box-shadow: 0 5px 5px rgb(233, 160, 160);
+    max-width: 45%;
+    margin: 15px auto;
+    text-align: left;
+    padding: 15px;
+}
+
+#date1{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    font-family: "montserrat-bold", sans-serif
+}
+#comp1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 0;
+    font-family: "montserrat-bold", sans-serif;
+    letter-spacing: 1px;
+}
+#role1{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "montserrat-bold", sans-serif;
+    letter-spacing: 1px;
+}
+#experience li{
+    margin: 5px;
+    font-size: 20px
+
+}
+
+
+/* footer */
+#footer{
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+}
+#footer img{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    left: 15px;
+}
+
